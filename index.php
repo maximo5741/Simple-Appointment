@@ -1,5 +1,5 @@
 <?php
-$connect_appointment = new mysqli("localhost","root","elmastergotey32","appointment");
+$connect_appointment = new mysqli("","","","appointment");
 
 if($connect_appointment->connect_errno){
     die("connection error:" . $connect_appointment->connect-errno );
